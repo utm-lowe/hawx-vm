@@ -1,0 +1,23 @@
+{
+    "waitFor" : "onCreateCommand",
+    "updateContentCommand": "",
+    "postCreateCommand": ".devcontainer/setup.sh",
+    "customizations": {
+        "codespaces": {
+          "openFiles": [],
+          "repositories": {
+            "utm-lowe/*" : {
+              "permissions": "write-all"
+            }
+          }
+        },
+        "vscode": {
+          "extensions": [
+            "ms-vscode.cpptools",
+            "ms-vscode.cpptools-extension-pack",
+            "ms-vscode.cpptools-themes",
+            "ms-vscode.makefile-tools",
+          ]
+        }
+      }
+  }
