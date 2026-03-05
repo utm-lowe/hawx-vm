@@ -4,12 +4,7 @@
     "postCreateCommand": ".devcontainer/setup.sh",
     "customizations": {
         "codespaces": {
-          "openFiles": [],
-          "repositories": {
-            "utm-lowe/*" : {
-              "permissions": "write-all"
-            }
-          }
+          "openFiles": []
         },
         "vscode": {
           "extensions": [
